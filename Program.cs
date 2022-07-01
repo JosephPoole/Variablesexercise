@@ -1,0 +1,12 @@
+﻿char a = 'M';
+string dogName = "Ralph";
+int dogAge = 10;
+double dogvalue = 3.5;
+decimal dogdate = 02.12m;
+Console.Write(a);
+Console.WriteLine($"y dog's name is {dogName}");
+Console.WriteLine($"He is {dogAge} years old and {dogvalue} feet tall.");
+Console.WriteLine($"He was born on {dogdate} or Febuary of 2012.");
+bool thedogisfast = true;
+Console.WriteLine(thedogisfast ? "Ralph can run a mile in 4.5 minutes." : "Not checked");
+Console.WriteLine("I Love Ralph!");
